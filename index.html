@@ -12,45 +12,35 @@
 </head>
 <body>
 
-  <!-- ============================================ -->
-  <!-- HEADER / NAVIGATION                          -->
-  <!-- ============================================ -->
+  <!-- HEADER -->
   <header class="site-header" id="top">
     <div class="container header-inner">
       <a href="#top" class="logo">
-        <span class="logo-icon">🪵</span>
+        <img src="https://www.crafthubtoronto.ca/icon.svg" alt="Craft Hub logo" class="logo-img" onerror="this.style.display='none'" />
         <span class="logo-text">Craft Hub Toronto</span>
       </a>
       <nav class="nav-links" id="nav-links">
-        <a href="#workshops" class="nav-link">Workshop</a>
+        <a href="#workshops" class="nav-link">Workshops</a>
         <a href="#about" class="nav-link">About</a>
         <a href="#contact" class="nav-link">Contact</a>
         <a href="https://forms.gle/9wbxiqbwiBbaDRkq9" target="_blank" class="btn btn-primary btn-sm">I'm Interested</a>
       </nav>
       <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
   <main>
 
-    <!-- ============================================ -->
-    <!-- HERO SECTION                                 -->
-    <!-- ============================================ -->
+    <!-- HERO -->
     <section class="hero" id="hero">
       <div class="hero-bg">
-        <img
-          src="https://images.unsplash.com/photo-1604754742629-3e5728249d73?w=1400&q=80"
-          alt="Wood carving workshop with tools and carved pieces"
-          class="hero-img"
-        />
+        <img src="https://www.crafthubtoronto.ca/hero-bg.jpg" alt="Wood carving tools and woodchips" class="hero-img" />
         <div class="hero-overlay"></div>
       </div>
       <div class="container hero-content">
-        <span class="hero-eyebrow">Wood Carving Workshops</span>
+        <span class="hero-badge">Wood Carving Workshops</span>
         <h1 class="hero-headline">Handmade Starts Here</h1>
         <p class="hero-subheadline">
           Join our intimate wood carving workshops. Learn traditional crafts in a welcoming space with expert guidance.
@@ -58,86 +48,74 @@
         <div class="hero-actions">
           <a href="https://forms.gle/9wbxiqbwiBbaDRkq9" target="_blank" class="btn btn-primary btn-lg">
             I'm Interested
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </a>
-          <a href="#about" class="btn btn-outline btn-lg">Learn More</a>
+          <a href="#about" class="btn btn-dark btn-lg">Learn More</a>
         </div>
       </div>
     </section>
 
-    <!-- ============================================ -->
-    <!-- FEATURES SECTION                             -->
-    <!-- ============================================ -->
+    <!-- FEATURES -->
     <section class="features" id="features">
-      <div class="container">
-        <h2 class="section-title">Why Craft Hub?</h2>
-        <div class="features-grid">
+      <div class="container features-grid">
 
-          <div class="feature-card">
-            <div class="feature-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-            </div>
-            <h3 class="feature-title">Small Groups</h3>
-            <p class="feature-desc">6 participants max for personalized attention</p>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
           </div>
-
-          <div class="feature-card">
-            <div class="feature-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
-            </div>
-            <h3 class="feature-title">All Materials Included</h3>
-            <p class="feature-desc">Everything you need is provided</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-            </div>
-            <h3 class="feature-title">Expert Instructors</h3>
-            <p class="feature-desc">Learn from practicing artisans</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
-            </div>
-            <h3 class="feature-title">Take Home Your Work</h3>
-            <p class="feature-desc">Leave with something you made</p>
-          </div>
-
+          <h3 class="feature-title">Small Groups</h3>
+          <p class="feature-desc">6 participants max for personalized attention</p>
         </div>
+
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
+          </div>
+          <h3 class="feature-title">All Materials Included</h3>
+          <p class="feature-desc">Everything you need is provided</p>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <h3 class="feature-title">Expert Instructors</h3>
+          <p class="feature-desc">Learn from practicing artisans</p>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+          </div>
+          <h3 class="feature-title">Take Home Your Work</h3>
+          <p class="feature-desc">Leave with something you made</p>
+        </div>
+
       </div>
     </section>
 
-    <!-- ============================================ -->
-    <!-- WORKSHOPS SECTION (Interest Form)            -->
-    <!-- ============================================ -->
+    <!-- WORKSHOPS -->
     <section class="workshops" id="workshops">
       <div class="workshops-bg">
-        <img
-          src="https://images.unsplash.com/photo-1566836610593-62c1fc2a8a3c?w=1400&q=80"
-          alt="Wood chips and carving tools on a workbench"
-          class="workshops-img"
-        />
+        <img src="https://www.crafthubtoronto.ca/woodchips-bg.jpg" alt="Woodchips background" class="workshops-img" />
         <div class="workshops-overlay"></div>
       </div>
       <div class="container workshops-content">
-        <span class="badge">Coming Soon</span>
-        <h2 class="section-title light">Bear Carving Workshop</h2>
+        <span class="coming-soon-badge">Coming Soon</span>
+        <h2 class="workshops-title">Bear Carving Workshop</h2>
         <p class="workshops-desc">
           Learn to carve your own wooden bear using traditional hand tools. Each 3-hour session accommodates up to 6 participants for personalized instruction. Take home your handcrafted creation.
         </p>
         <div class="workshop-card">
-          <div class="workshop-badge-row">
-            <span class="badge badge-outline-dark">Wood Carving</span>
-          </div>
+          <span class="workshop-type-badge">Wood Carving</span>
           <div class="workshop-price">$65</div>
           <div class="workshop-meta">
             <span class="workshop-meta-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
               Max 6 participants
             </span>
             <span class="workshop-meta-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
               3 hours
             </span>
           </div>
@@ -151,69 +129,39 @@
       </div>
     </section>
 
-    <!-- ============================================ -->
-    <!-- ABOUT SECTION                                -->
-    <!-- ============================================ -->
+    <!-- ABOUT -->
     <section class="about" id="about">
-      <div class="container about-inner">
-        <div class="about-text">
-          <h2 class="section-title">About Craft Hub</h2>
-          <p>
-            Craft Hub Toronto is a creative space dedicated to preserving and sharing traditional wood carving skills. We believe in the power of making things with your hands.
-          </p>
-          <p>
-            Our workshops are intentionally small—usually 6 to 8 participants—so you get personal attention and a relaxed, focused learning environment.
-          </p>
-          <p>
-            Whether you're a complete beginner or looking to refine your skills, our experienced instructors will guide you through each step of the process.
-          </p>
-        </div>
-        <div class="about-image">
-          <img
-            src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80"
-            alt="Artisan working on a wood carving project"
-          />
+      <div class="container">
+        <h2 class="about-title">About Craft Hub</h2>
+        <div class="about-body">
+          <p>Craft Hub Toronto is a creative space dedicated to preserving and sharing traditional wood carving skills. We believe in the power of making things with your hands.</p>
+          <p>Our workshops are intentionally small—usually 6 to 8 participants—so you get personal attention and a relaxed, focused learning environment.</p>
+          <p>Whether you're a complete beginner or looking to refine your skills, our experienced instructors will guide you through each step of the process.</p>
         </div>
       </div>
     </section>
 
   </main>
 
-  <!-- ============================================ -->
-  <!-- FOOTER / CONTACT                             -->
-  <!-- ============================================ -->
+  <!-- FOOTER -->
   <footer class="site-footer" id="contact">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <div style="display:flex;align-items:center;gap:10px;">
-          <span class="logo-icon">🪵</span>
-          <span class="logo-text" style="font-size:18px;font-weight:700;color:#fff;">Craft Hub Toronto</span>
-        </div>
-        <p class="footer-tagline">Learn the Art of Making</p>
+        <img src="https://www.crafthubtoronto.ca/icon.svg" alt="Craft Hub logo" class="logo-img" onerror="this.style.display='none'" />
+        <span class="footer-name">Craft Hub Toronto</span>
       </div>
+      <p class="footer-tagline">Intimate wood carving workshops. Small groups, big creativity.</p>
       <div class="footer-links">
-        <h4>Quick Links</h4>
-        <a href="#workshops">Workshop</a>
-        <a href="#about">About</a>
-        <a href="mailto:crafthubtoronto@gmail.com">Contact</a>
-      </div>
-      <div class="footer-contact">
-        <h4>Get in Touch</h4>
-        <a href="mailto:crafthubtoronto@gmail.com" class="footer-contact-link">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <a href="mailto:crafthubtoronto@gmail.com" class="footer-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
           crafthubtoronto@gmail.com
         </a>
-        <a href="https://instagram.com/crafthubtoronto" target="_blank" class="footer-contact-link">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+        <a href="https://instagram.com/crafthubtoronto" target="_blank" class="footer-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
           @crafthubtoronto
         </a>
-        <a href="https://forms.gle/9wbxiqbwiBbaDRkq9" target="_blank" class="btn btn-primary btn-sm" style="margin-top:12px;display:inline-flex;">
-          Register Interest
-        </a>
       </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 Craft Hub Toronto. All rights reserved.</p>
+      <p class="footer-copy">&copy; 2025 Craft Hub Toronto. All rights reserved.</p>
     </div>
   </footer>
 
