@@ -214,6 +214,12 @@ a { text-decoration: none; color: inherit; }
   position: absolute; inset: 0;
   background: rgba(240, 230, 245, 0.72);
 }
+.workshops-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
 .workshops-content {
   position: relative;
   z-index: 1;
