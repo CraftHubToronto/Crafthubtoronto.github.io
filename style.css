@@ -461,7 +461,7 @@ a { text-decoration: none; color: inherit; }
   display: flex;
   flex-direction: column;
   align-items: left;
-  text-align: left;
+  text-align: centre;
   gap: 16px;
 }
 .footer-brand {
