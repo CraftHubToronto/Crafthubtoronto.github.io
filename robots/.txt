@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://crafthubtoronto.ca/sitemap/index.xml
