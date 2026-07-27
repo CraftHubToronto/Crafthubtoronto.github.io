@@ -474,50 +474,6 @@ a { text-decoration: none; color: inherit; }
 .about-text p:last-child { margin-bottom: 0; }
 
 /* ============================================
-   NEWSLETTER
-   ============================================ */
-.newsletter {
-  background: var(--primary);
-  padding: 64px 0;
-  text-align: center;
-}
-.newsletter-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.newsletter-title {
-  font-family: var(--font-display);
-  font-size: clamp(1.8rem, 4vw, 2.4rem);
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 12px;
-}
-.newsletter-desc {
-  font-size: 1rem;
-  color: rgba(255,255,255,0.85);
-  max-width: 520px;
-  margin-bottom: 28px;
-  line-height: 1.7;
-}
-.newsletter-form {
-  display: flex;
-  gap: 12px;
-  max-width: 480px;
-  width: 100%;
-}
-.newsletter-input {
-  flex: 1;
-  padding: 13px 18px;
-  font-size: 15px;
-  font-family: var(--font-sans);
-  border: none;
-  border-radius: 6px;
-  outline: none;
-}
-.newsletter-input:focus { box-shadow: 0 0 0 3px rgba(255,255,255,0.3); }
-
-/* ============================================
    DEMO / PROJECT SLIDESHOW
    ============================================ */
 .demo {
@@ -647,6 +603,50 @@ a { text-decoration: none; color: inherit; }
 }
 .reviews-cta:hover { transform: translateY(-2px); box-shadow: 0 4px 18px rgba(0,0,0,0.12); }
 
+
+/* ============================================
+   NEWSLETTER
+   ============================================ */
+.newsletter {
+  background: var(--primary);
+  padding: 64px 0;
+  text-align: center;
+}
+.newsletter-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsletter-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.newsletter-desc {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+  max-width: 520px;
+  margin-bottom: 28px;
+  line-height: 1.7;
+}
+.newsletter-form {
+  display: flex;
+  gap: 12px;
+  max-width: 480px;
+  width: 100%;
+}
+.newsletter-input {
+  flex: 1;
+  padding: 13px 18px;
+  font-size: 15px;
+  font-family: var(--font-sans);
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+.newsletter-input:focus { box-shadow: 0 0 0 3px rgba(255,255,255,0.3); }
 
 /* ============================================
    FOOTER
