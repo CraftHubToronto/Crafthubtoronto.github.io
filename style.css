@@ -741,22 +741,40 @@ a { text-decoration: none; color: inherit; }
 /* ============================================
    NEWSLETTER
    ============================================ */
-.newsletter {
-  background: var(--primary);
-  padding: 64px 0;
-  text-align: center;
+#newsletter {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    text-align: center;
 }
-.newsletter-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+#newsletter h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #333;
 }
-.newsletter-title {
-  font-family: var(--font-display);
-  font-size: clamp(1.8rem, 4vw, 2.4rem);
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 12px;
+
+#newsletter input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#newsletter button {
+    width: 100%;
+    padding: 14px;
+    background: #2ecc71;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
 }
 .newsletter-desc {
   font-size: 1rem;
