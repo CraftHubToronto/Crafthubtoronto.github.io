@@ -722,7 +722,10 @@ a { text-decoration: none; color: inherit; }
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     text-align: center;
 }
-
+#newsletter {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 #newsletter h2 {
     font-size: 1.6rem;
     margin-bottom: 20px;
@@ -761,22 +764,6 @@ a { text-decoration: none; color: inherit; }
     overflow: hidden;
     position: relative;
 }
-.newsletter-form {
-  display: flex;
-  gap: 12px;
-  max-width: 480px;
-  width: 100%;
-}
-.newsletter-input {
-  flex: 1;
-  padding: 13px 18px;
-  font-size: 15px;
-  font-family: var(--font-sans);
-  border: none;
-  border-radius: 6px;
-  outline: none;
-}
-.newsletter-input:focus { box-shadow: 0 0 0 3px rgba(255,255,255,0.3); }
 
 /* ============================================
    FOOTER
