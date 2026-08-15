@@ -751,12 +751,9 @@ a { text-decoration: none; color: inherit; }
     font-size: 1.1rem;
     cursor: pointer;
 }
-.newsletter-desc {
-  font-size: 1rem;
-  color: rgba(255,255,255,0.85);
-  max-width: 520px;
-  margin-bottom: 28px;
-  line-height: 1.7;
+.iframe-wrapper {
+    overflow: hidden;
+    height: auto;
 }
 #zeffy-container {
     width: 100%;
